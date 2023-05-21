@@ -13,6 +13,8 @@ export default function Layout({ children }) {
       <meta name="author" content="Triistam" />
       <meta name="keywords" content="Triistam akumaru user6879" />
       <meta name="og:image" content="https://i.imgur.com/nDxSgWi.png"/>
+      <meta name="og:title" content="Triistam"/>
+      <meta name="og:type" content="article"/>
     </Head>
       <div className="container mx-auto" id="app">
         <Navbar />
