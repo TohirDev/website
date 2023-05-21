@@ -8,9 +8,7 @@ export default function () {
     <Head>
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-      <link href="https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet" />
-      <link href="https://fonts.googleapis.com/css2?family=Eater&display=swap" rel="stylesheet" />
-      <link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet" /> 
+      <link href="https://fonts.googleapis.com/css2?family=Eater&display=swap" rel="stylesheet" /> 
     </Head>
       <div>
         <div className="avatar mt-12">
