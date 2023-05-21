@@ -1,6 +1,6 @@
 function Navbar() {
   return (
-    <nav className="mt-4 mb-8 text-center text-2xl text-white flex justify-center">
+    <nav className="mt-4 mb-8 text-center text-xl text-white flex justify-center">
       <ul className="flex">
         <li>
           <a href="/" className="px-4">
