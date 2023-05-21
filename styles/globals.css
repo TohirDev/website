@@ -3,20 +3,41 @@
 @tailwind utilities;
 
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    height: 100vh;
-    background-color: black;
+  background-color: black;
 }
 
-h1{
-    color: white;
-    font-family: 'JetBrains Mono', monospace;
+html,
+body {
+  height: 100%;
+  color: white;
+}
+
+h1 {
+  color: white;
+  font-family: "JetBrains Mono", monospace;
+}
+
+#app {
+  min-height: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1 1 auto;
+}
+
+.avatar {
+  display: grid;
+  place-items: center;
 }
