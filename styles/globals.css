@@ -50,3 +50,31 @@ h1 {
 .quote {
   font-family: 'Eater', cursive;
 }
+
+.element {
+  font-size: 22px;
+  margin: 30px;
+  padding: 40px;
+  background-color: rgb(29, 31, 31);
+  border-radius: 20px;
+  font-family: 'JetBrains Mono';
+}
+
+.setup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.system {
+  width: 400px;
+  margin: auto;
+  padding: 60px;
+  background-image:url("../public/universe.jpg");
+  background-position: center;
+}
+
+.setup {
+  justify-content: center;
+  align-items: center;
+}

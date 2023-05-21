@@ -7,8 +7,12 @@ export default function Layout({ children }) {
     <>
     <Head>
       <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
       <link href="https://fonts.googleapis.com/css2?family=Eater&display=swap" rel="stylesheet" /> 
+      <meta name="description" content="Weakling preparing to explode with his unexpected moves." />
+      <meta name="author" content="Triistam" />
+      <meta name="keywords" content="Triistam akumaru user6879" />
+      <meta name="og:image" content="https://i.imgur.com/nDxSgWi.png"/>
     </Head>
       <div className="container mx-auto" id="app">
         <Navbar />
