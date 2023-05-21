@@ -6,9 +6,7 @@ export default function () {
   return (
     <>
     <Head>
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-      <link href="https://fonts.googleapis.com/css2?family=Eater&display=swap" rel="stylesheet" /> 
+      <title>Triistam - Website</title>
     </Head>
       <div>
         <div className="avatar mt-12">
