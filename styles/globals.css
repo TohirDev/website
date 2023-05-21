@@ -41,3 +41,11 @@ h1 {
   display: grid;
   place-items: center;
 }
+
+.nick {
+  font-family: 'Nosifer', cursive;
+}
+
+.quote {
+  font-family: 'Eater', cursive;
+}
