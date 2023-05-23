@@ -12,7 +12,7 @@
 }
 
 body {
-  font-family: 'Eater', cursive;
+  font-family: "JetBrains Mono", monospace;
   background-color: black;
 }
 
@@ -44,11 +44,11 @@ h1 {
 }
 
 .nick {
-  font-family: 'Eater', cursive;
+  font-family: "JetBrains Mono", monospace;
 }
 
 .quote {
-  font-family: 'Eater', cursive;
+  font-family: "JetBrains Mono", monospace;
 }
 
 .element {
@@ -57,7 +57,7 @@ h1 {
   padding: 40px;
   background-color: rgb(29, 31, 31);
   border-radius: 20px;
-  font-family: 'JetBrains Mono';
+  font-family: "JetBrains Mono";
 }
 
 .setup {
@@ -70,11 +70,31 @@ h1 {
   width: 400px;
   margin: auto;
   padding: 60px;
-  background-image:url("../public/universe.jpg");
+  background-image: url("../public/universe.jpg");
   background-position: center;
 }
 
 .setup {
   justify-content: center;
   align-items: center;
+}
+
+.socials {
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.social {
+  font-weight: 700;
+  flex-direction: column;
+  margin: 15px 5px;
+  flex-direction: column;
+  font-family: "JetBrains Mono";
+  display: flex;
+  width: 300px;
+  height: 69px;
+  padding: 25px;
+  border-radius: 20px;
+  background-color: rgb(61, 60, 60);
 }
