@@ -21,7 +21,7 @@ export default function Layout({ children }) {
       <meta name="og:url" content="https://triistam.vercel.app/"/> */}
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="og:title" content="Triistam's Website" />
-        <meta name="og:description" content="Full of sorrows." />
+        <meta name="og:description" content="Weakling preparing to explode with his unexpected moves. Full of sorrows." />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="og:title"
