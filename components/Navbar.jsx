@@ -1,6 +1,6 @@
 function Navbar() {
   return (
-    <nav className="mt-4 mb-8 text-center text-xl text-white flex justify-center">
+    <nav className="mt-4 mb-8 text-center text-base  text-white flex justify-center navbar container mx-auto">
       <ul className="flex">
         <li>
           <a href="/" className="px-4">
@@ -9,7 +9,7 @@ function Navbar() {
         </li>
         <li>
           <a href="/projects" className="px-4">
-            Projetcs
+            Projects
           </a>
         </li>
         <li>
