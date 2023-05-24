@@ -44,7 +44,7 @@ export default function Layout({ children }) {
         <meta name="twitter:url" content="https://docs-golanguz.vercel.app/" />
         <meta
           name="og:title"
-          content={title ? title + " – Golang" : "Golang"}
+          content="Triistam"
         />
         <meta
           name="og:image"
