@@ -23,10 +23,8 @@ export default function Layout({ children }) {
         <meta name="og:title" content="Triistam's Website" />
         <meta name="og:description" content="Weakling preparing to explode with his unexpected moves. Full of sorrows." />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="og:title"
-          content="Triistam"
-        />
+        <meta name="og:url" content="https://triistam.blackbird.uz" />
+        <meta name="og:author" content="Triistam"/>
         <meta
           name="og:image"
           content="https://i.imgur.com/lcGaAnf.png"
