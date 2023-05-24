@@ -48,7 +48,7 @@ export default function Layout({ children }) {
         />
         <meta
           name="og:image"
-          content="https://go.dev/blog/go-brand/Go-Logo/PNG/Go-Logo_Aqua.png"
+          content="https://i.imgur.com/lcGaAnf.png"
         />
         <meta name="apple-mobile-web-app-title" content="Golang Uzbekistan" />
       </Head>
