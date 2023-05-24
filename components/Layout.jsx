@@ -19,18 +19,38 @@ export default function Layout({ children }) {
       <meta name="og:title" content="Triistam"/>
       <meta name="og:type" content="profile"/>
       <meta name="og:url" content="https://triistam.vercel.app/"/> */}
-        <meta property="og:type" content="article" />
-        <meta property="og:title" content="Triistam' Website" />
-        <meta
-          property="og:description"
-          content="Weakling preparing to explode with his unexpected moves."
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:title" content="Nextra" />
+        <meta property="og:description" content="The next site builder" />
+        <link
+          rel="icon"
+          type="image/x-icon"
+          href="https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_Aqua.svg"
         />
-        <meta property="og:url" content="https://triistam.vercel.app" />
         <meta
-          property="og:image"
-          content="https://camo.githubusercontent.com/75a19770e9bf3991cf8c08c09758aa1fa4a3b4161f0c014d51e639d2fc28fc70/68747470733a2f2f692e696d6775722e636f6d2f6e4478536757692e706e67"
+          name="og:description"
+          content="O'zbek dasturchilari tomonidan qo'llab quvvatlanadigan Golang hamjamiyati."
         />
-        <meta property="og:site_name" content="Triistam's Website " />
+        <meta
+          name="description"
+          content="O'zbek dasturchilari tomonidan qo'llab quvvatlanadigan Golang hamjamiyati."
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:image"
+          content="https://go.dev/blog/go-brand/Go-Logo/PNG/Go-Logo_Aqua.png"
+        />
+        <meta name="twitter:site:domain" content="docs-golanguz.vercel.app" />
+        <meta name="twitter:url" content="https://docs-golanguz.vercel.app/" />
+        <meta
+          name="og:title"
+          content={title ? title + " – Golang" : "Golang"}
+        />
+        <meta
+          name="og:image"
+          content="https://go.dev/blog/go-brand/Go-Logo/PNG/Go-Logo_Aqua.png"
+        />
+        <meta name="apple-mobile-web-app-title" content="Golang Uzbekistan" />
       </Head>
       <div className="container mx-auto" id="app">
         <Navbar />
